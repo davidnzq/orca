@@ -3,7 +3,7 @@ import type { NativeChatMessage } from '../../../../../../shared/native-chat/nat
 import { createStructuredAgentSessionEventCoalescer } from '../../../../../../shared/agent-session/view/live-read/structured-agent-session-coalescer'
 import { positionsRevisedFrom } from '../../../../../../shared/agent-session/view/revised-in-place-lists'
 import { stageBesideStreamedText } from '../../../../../../shared/agent-session/view/structured-agent-session-streamed-text-rows'
-import { withSubscriberLiveText } from '../../../../../main/native-chat/agent-session-wire/publication/subscribers/agent-session-subscriber-live-text'
+import { withSubscriberLiveText } from '../../../../../../main/native-chat/agent-session-wire/publication/subscribers/agent-session-subscriber-live-text'
 import { buildNativeChatTranscript } from './native-chat-transcript-slots'
 import { createNativeChatStreamedTranscript, withStreamedRows } from './native-chat-transcript-streamed-slots'
 
